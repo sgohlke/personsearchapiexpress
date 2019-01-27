@@ -1,0 +1,18 @@
+{
+  "name": "personsearchapiexpress",
+  "version": "1.0.0",
+  "description": "Person Search API Webservice",
+  "main": "personAPI.js",
+  "scripts": {  
+    "start": "node personAPI",
+    "runServerDev": "nodemon personAPI"
+  },
+  "author": "Stefan Gohlke",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
