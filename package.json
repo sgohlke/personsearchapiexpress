@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Person Search API Webservice",
   "main": "personAPI.js",
-  "scripts": {  
+  "scripts": {
     "start": "node personAPI",
     "runServerDev": "nodemon personAPI"
   },
