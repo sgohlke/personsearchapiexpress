@@ -37,7 +37,7 @@ function getResult(req, resObj) {
 	let resultSet = new Set();
 		
 	persons.forEach(function(value){
-		if (value.name && value.name.first && value.name.last && ( value.name.first.toLowerCase().indexOf(req.params.name.toLowerCase()) >= 0 || value.name.last.toLowerCase().indexOf(req.params.name.toLowerCase()) >= 0 )) {
+		if (value.firstName && value.lastName && ( value.firstName.toLowerCase().indexOf(req.params.name.toLowerCase()) >= 0 || value.lastName.toLowerCase().indexOf(req.params.name.toLowerCase()) >= 0 )) {
 			resultSet.add(resObj === 'person' ? value :  value.favoriteFruit);
 		}
 	});
