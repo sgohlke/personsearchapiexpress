@@ -4,8 +4,7 @@
   "description": "Person Search API Webservice",
   "main": "personAPI.js",
   "scripts": {
-    "start": "node personAPI",
-    "runServerDev": "nodemon personAPI"
+    "start": "node personAPI"
   },
   "author": "Stefan Gohlke",
   "license": "ISC",
